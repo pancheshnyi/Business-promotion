@@ -1,0 +1,284 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #22343d;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h5,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 1150px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+  margin-right: 237px;
+}
+
+.header-nav {
+  margin-right: 73px;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 30px;
+}
+
+.header-nav-item {
+}
+
+.header-nav-link {
+  /* font-weight: 400; дефолтний розмір браузера*/
+  /* font-size: 16px; дефолтний розмір браузера*/
+  display: block;
+  line-height: 1.75;
+  color: #22343d;
+  padding: 26px 0;
+}
+
+.current {
+  font-weight: 600;
+}
+
+.header-btn-list {
+  display: flex;
+  gap: 21px;
+}
+
+.header-btn-item {
+}
+
+.header-btn {
+  min-width: 105px;
+  height: 42px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  font-family: inherit;
+  /* inherist наслідування фонту body */
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #173a56;
+  background-color: transparent;
+  /* transparent прозорість */
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  color: #fff;
+  background-color: #02897a;
+  border-color: transparent;
+  /* transparent робить прозорим бордер кнопки */
+}
+
+/* -------------------HERO-------------------------------- */
+
+.hero-container {
+  display: flex;
+  align-items: center;
+}
+
+.hero-btn-link {
+  display: flex;
+  gap: 30px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #22343d;
+  margin-bottom: 18px;
+}
+
+.hero-description {
+  max-width: 465px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55556;
+  color: #22343d;
+  margin-bottom: 45px;
+}
+
+.hero-btn {
+  border-radius: 4px;
+  min-width: 178px;
+  height: 53px;
+  font-family: inherit;
+  border: 1px solid #bcd0e5;
+  background-color: transparent;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #02897a;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  border-color: transparent;
+}
+
+/* -------------------HERO-------------------------------- */
+
+/* ------------------SPECIFICALLY------------------------- */
+
+.specifically {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.specifically-section {
+  display: flex;
+  gap: 30px;
+}
+
+.specifically-title {
+  /* display: block; */
+  max-width: 466px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  color: #22343d;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.specifically-item {
+  width: calc((100% - 90px) / 4);
+  margin-bottom: 50px;
+}
+
+.specifically-subtitle {
+  font-weight: 600;
+  font-size: 22px;
+  color: #22343d;
+  margin-top: 18px;
+  margin-bottom: 13px;
+}
+
+.specifically-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #22343d;
+}
+
+.specifically-btn {
+  display: block;
+  margin: 0 auto;
+  min-width: 175px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+  width: 175px;
+  height: 53px;
+  background: #02897a;
+  border-color: transparent;
+  text-transform: uppercase;
+}
+
+/*----------------BENEFITS---------------*/
+
+.benefits-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits-container {
+  width: 486px;
+}
+
+.benefits-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.benefits-sub-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.benefits-sub-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.decoration {
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343d;
+  margin-bottom: 8px;
+}
+
+.benefits-subtitles {
+  font-weight: 700;
+  font-size: 32px;
+  color: #22343d;
+  margin-bottom: 25px;
+}
+
+.benefits-decoration {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #22343d;
+}
+
+.benefits-subtitles-item {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #22343d;
+}
